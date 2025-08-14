@@ -1,7 +1,7 @@
 name: CI                 # The name of the workflow (shows up in GitHub)
 on: [push]               # Trigger: run this workflow on every push
 jobs:
-  test:                # Job name (can be anything)
+  build:                # Job name (can be anything)
     runs-on: ubuntu-latest   # Runner: use the latest Ubuntu server
     steps:
       - uses: actions/checkout@v4  # Step: check out your code from the repo
